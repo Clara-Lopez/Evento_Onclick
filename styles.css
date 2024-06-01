@@ -1,0 +1,107 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.section {
+    flex-basis: 45%;
+    display: inline-flex;
+    border: 2px solid #333;
+    padding: 10px;
+    align-items: center;
+}
+
+.sidebar {
+    flex-basis: 20%;
+    border: 2px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    background-color: dimgrey;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.login-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid #333;
+}
+
+/* Estilos de los divs de la sección */
+.ninja-info {
+    width: 200px;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.like-btn {
+    border: 1px solid #ccc;
+    background-color: darkgoldenrod;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid #333;
+}
+.highlight {
+    color: blue; /* Color de texto azul */
+    text-decoration: underline; /* Subrayado */
+}
+/* Estilos del sidebar */
+.sidebar-content {
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.centered {
+    margin-bottom: 10px;
+}
+
+.add-definition-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #333;
+    padding: 5px 10px;
+    cursor: pointer;
+}
